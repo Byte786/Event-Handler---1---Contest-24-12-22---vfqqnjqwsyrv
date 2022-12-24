@@ -9,6 +9,9 @@ const App = () => {
   return (
     <div id="main">
       <button id="button-a">Button A</button>
+    <button onclick={this.handleClick}>
+    click here when click i Ran.
+    </button>
     </div>
   )
 }
