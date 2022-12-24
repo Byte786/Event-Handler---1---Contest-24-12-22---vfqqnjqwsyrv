@@ -8,9 +8,8 @@ const App = () => {
   }
   return (
     <div id="main">
-      <button id="button-a">Button A</button>
-    <button onclick={this.handleClick}>
-    click here when click i Ran.
+      <button id="button-a"onclick={this.onClick.button(this)} ref={(ref)=>{this.button=ref}}>click Iran
+
     </button>
     </div>
   )
